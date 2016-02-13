@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+>
+
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ifox.zh.rca.app.view.CleanableEditText_
+        android:id="@+id/et_login_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:hint="请输入账号"
+        android:drawableRight="@drawable/guide_dot_focus"
+        android:inputType="phone"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="20dp"/>
+
+    <com.ifox.zh.rca.app.view.CleanableEditText_
+        android:id="@+id/et_login_password"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入密码"
+        android:drawableRight="@drawable/guide_dot_focus"
+        android:inputType="numberPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/tv_login_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="忘记密码？"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            />
+        <TextView
+            android:id="@+id/tv_login_new_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="新用户"
+            android:layout_marginRight="20dp"
+            android:padding="8dp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login_to_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="登陆"/>
+
+</LinearLayout>
+</RelativeLayout>

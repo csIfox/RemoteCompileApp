@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main_content"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        />
+
+    <!-- tab 选项卡容器-->
+    <RadioGroup
+        android:id="@+id/rg_main_tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/MainTabItem"
+            android:text="写代码"
+            android:checked="false" />
+        <RadioButton
+            style="@style/MainTabItem"
+            android:text="看代码"
+            android:checked="false" />
+        <RadioButton
+            style="@style/MainTabItem"
+            android:text="分享"
+            android:checked="false" />
+
+        <RadioButton
+            style="@style/MainTabItem"
+            android:text="关于我"
+            android:checked="false" />
+
+
+
+    </RadioGroup>
+
+</LinearLayout>

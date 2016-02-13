@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">远程编译系统App</string>
+    <string name="img_description_splash_home">启动界面背景</string>
 </resources>
